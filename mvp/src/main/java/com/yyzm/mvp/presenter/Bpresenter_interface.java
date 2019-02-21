@@ -14,9 +14,9 @@ public interface Bpresenter_interface<M extends Bmodel_interface, V extends Bvie
 
     void registerView(V view);
 
-    void getDatatoNet(M model);
+    Object getDatatoNet();
 
-    V setView();
+    V getView();
 
     void destroyView();
 

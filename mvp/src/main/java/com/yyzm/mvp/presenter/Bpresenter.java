@@ -37,7 +37,7 @@ public abstract class Bpresenter<M extends Bmodel_interface, V extends Bview_int
     }
 
     @Override
-    public V setView() {
+    public V getView() {
         return wrf_view == null ? null : wrf_view.get();
     }
 
